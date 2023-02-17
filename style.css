@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(28, 72, 90);
+    padding: 10px;
+    
+}
+
+.wrap{
+    width: 290px;
+    height: auto;
+    margin: 20px;
+    background:gray;
+    padding: 30px;
+    flex: wrap;
+    align-items: center;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 10px;
+}
+input[type=text]{
+    width: 250px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+    border-radius: 10px;
+}
+input[type=button]{
+    width: 65px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow:5px 5px 5px 5px black;
+    
+    
+}
+span{
+    color: red;
+    font-weight: bold;
+}
